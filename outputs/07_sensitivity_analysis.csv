@@ -1,0 +1,6 @@
+variable,shock_size,ppnr_baseline_$MM,ppnr_shocked_$MM,delta_ppnr_$MM,direction
+vix,1.0,18668.0,17967.0,-701.0,negative
+gdp_growth,1.0,18668.0,18009.0,-659.0,negative
+hpi_growth,1.0,18668.0,18341.0,-327.0,negative
+unemployment,1.0,18668.0,18650.0,-18.0,negative
+fed_funds_rate,1.0,18668.0,18668.0,0.0,negative

@@ -1,0 +1,4 @@
+scenario,cumulative_ppnr_$MM,after_tax_income_$MM,cet1_change_bps,cet1_terminal_%,buffer_above_min_bps,passes_stress
+baseline,18668.0,14748.0,421.4,16.71,971.4,True
+adverse,15624.0,12343.0,352.7,16.03,902.7,True
+severely_adverse,15473.0,12224.0,349.3,15.99,899.3,True

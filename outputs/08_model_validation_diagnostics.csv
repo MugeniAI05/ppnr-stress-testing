@@ -1,0 +1,5 @@
+target,r2,rmse,durbin_watson,ljung_box_p,autocorrelation_issue,jarque_bera_p,non_normal_residuals,breusch_pagan_p,heteroskedasticity,structural_break,structural_break_qtr
+ppnr,-8.3885,404.76,0.443,0.0009,True,0.7346,False,0.9988,False,False,2023Q4
+nii,-3.245,418.66,0.469,0.7476,False,0.5202,False,0.9988,False,False,2023Q4
+nonii,0.6981,117.55,1.822,0.03,True,0.7664,False,0.9988,False,False,2023Q4
+nie,-5.4331,275.77,0.237,0.0356,True,0.1856,False,0.9988,False,False,2023Q4

@@ -1,0 +1,5 @@
+model,target,RMSE,MAE,R2,MAPE(%)
+GradientBoosting,nii,418.66,355.08,-3.245,3.5
+GradientBoosting,nonii,117.55,95.8,0.6981,3.68
+GradientBoosting,nie,275.77,250.83,-5.4331,2.4
+GradientBoosting,ppnr_aggregate,231.59,,-2.0736,

@@ -1,0 +1,2 @@
+Project,Framework,Model,Training Quarters,Test Quarters,Feature Count,Test R²,Backtest MAPE (%),Backtest Directional,Baseline CET1 (%),Adverse CET1 (%),Sev. Adverse CET1 (%),All Pass Stress?
+PPNR Stress Testing & Model Validation,DFAST / CCAR-aligned,GradientBoosting Three-Equation System,27,10,27,-2.0736,8.73,33.3,16.71,16.03,15.99,True

@@ -1,0 +1,13 @@
+model,target,RMSE,MAE,R2,MAPE(%),split
+OLS,ppnr,37.42,32.29,0.9857,2.29,train
+OLS,ppnr,694.82,516.5,-26.6664,23.26,test
+Ridge,ppnr,117.38,95.24,0.8595,7.14,train
+Ridge,ppnr,237.91,222.6,-2.2437,10.28,test
+Lasso,ppnr,66.61,51.58,0.9548,3.87,train
+Lasso,ppnr,370.14,266.65,-6.8514,12.18,test
+ElasticNet,ppnr,143.71,119.2,0.7895,8.79,train
+ElasticNet,ppnr,205.27,185.4,-1.4146,8.63,test
+RandomForest,ppnr,114.21,73.63,0.867,6.18,train
+RandomForest,ppnr,409.01,387.49,-8.5869,17.83,test
+GradientBoosting,ppnr,0.4,0.34,1.0,0.02,train
+GradientBoosting,ppnr,404.76,370.61,-8.3885,17.01,test
