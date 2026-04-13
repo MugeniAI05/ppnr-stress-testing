@@ -100,13 +100,13 @@ with st.sidebar:
     st.markdown("**Stress Testing & Model Validation**")
     st.markdown("---")
     page = st.radio("Navigation", [
-        "📊 Overview",
-        "📈 Model Comparison",
-        "🔁 Back-Testing",
-        "🌩 Scenario Projections",
-        "💰 Capital Impact",
-        "🎯 Sensitivity Analysis",
-        "🔬 Model Validation",
+        "Overview",
+        "Model Comparison",
+        "Back-Testing",
+        "Scenario Projections",
+        "Capital Impact",
+        "Sensitivity Analysis",
+        "Model Validation",
     ])
     st.markdown("---")
     st.caption("Framework: DFAST / CCAR-aligned")
@@ -127,7 +127,7 @@ def color_scenario(val):
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: OVERVIEW
 # ══════════════════════════════════════════════════════════════════════════════
-if page == "📊 Overview":
+if page == "Overview":
     st.title("PPNR Stress Testing Platform")
     st.markdown("*Pre-Provision Net Revenue — DFAST/CCAR-aligned Stress Test*")
     st.markdown("---")
@@ -245,7 +245,7 @@ if page == "📊 Overview":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: MODEL COMPARISON
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == "📈 Model Comparison":
+elif page == "Model Comparison":
     st.title("Model Comparison & Feature Importance")
 
     cmp = data["model_cmp"]
@@ -305,7 +305,7 @@ elif page == "📈 Model Comparison":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: BACK-TESTING
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == "🔁 Back-Testing":
+elif page == "Back-Testing":
     st.title("Rolling-Window Back-Test Results")
 
     bt = data["backtest"]
@@ -360,7 +360,7 @@ elif page == "🔁 Back-Testing":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: SCENARIO PROJECTIONS
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == "🌩 Scenario Projections":
+elif page == "Scenario Projections":
     st.title("Stress Scenario Projections")
 
     proj  = data["proj"]
@@ -442,7 +442,7 @@ elif page == "🌩 Scenario Projections":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: CAPITAL IMPACT
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == "💰 Capital Impact":
+elif page == "Capital Impact":
     st.title("Capital Impact Analysis")
 
     cap = data["capital"]
@@ -500,7 +500,7 @@ elif page == "💰 Capital Impact":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: SENSITIVITY ANALYSIS
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == "🎯 Sensitivity Analysis":
+elif page == "Sensitivity Analysis":
     st.title("PPNR Sensitivity to Macro Shocks")
 
     sens = data["sens"]
@@ -543,7 +543,7 @@ elif page == "🎯 Sensitivity Analysis":
 # ══════════════════════════════════════════════════════════════════════════════
 # PAGE: MODEL VALIDATION
 # ══════════════════════════════════════════════════════════════════════════════
-elif page == "🔬 Model Validation":
+elif page == "Model Validation":
     st.title("Model Validation Diagnostics (SR 11-7 Framework)")
 
     val = data["val"]
