@@ -64,9 +64,8 @@ st.markdown("""
                    margin-bottom: 0.5rem; }
   [data-testid="stSidebar"] { background: #080d18; }
   [data-testid="stSidebar"] .stMarkdown { color: #a8c8d8; }
-  [data-testid="stSidebar"] label { color: #c8dce8 !important; }
-  [data-testid="stSidebar"] .stRadio label span { color: #c8dce8 !important; font-size: 0.9rem !important; }
-  [data-testid="stSidebar"] .stRadio label:hover span { color: #4dd0e1 !important; }
+  [data-testid="stSidebar"] * { color: #c8dce8 !important; }
+  [data-testid="stSidebar"] .sidebar-title { color: #4dd0e1 !important; }
 </style>
 """, unsafe_allow_html=True)
 
