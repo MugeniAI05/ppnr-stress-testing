@@ -1,6 +1,6 @@
 # PPNR Stress Testing & Model Validation Platform
 
-**A DFAST/CCAR-aligned Pre-Provision Net Revenue stress testing framework**  
+**A DFAST/CCAR-aligned Pre-Provision Net Revenue stress testing framework** 
 Built to demonstrate quantitative model development, validation, and stress scenario analysis for regulatory capital planning.
 
 ---
